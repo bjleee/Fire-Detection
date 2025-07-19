@@ -15,9 +15,6 @@ kagglehub
 Iprogress
 
 # 🧠 Deep Learning
-torch          # Core PyTorch library
-torchvision    # Computer vision datasets, models, transforms
-torchaudio     # Audio datasets and transforms (optional)
 lightning      # PyTorch Lightning for cleaner training loops
 torchinfo 
 # Optional: HuggingFace Transformers (for NLP work)
