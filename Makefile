@@ -3,7 +3,7 @@
 #################################################################################
 
 PROJECT_NAME = fire-detection
-PYTHON_VERSION = 3.12
+PYTHON_VERSION = 3.11
 PYTHON_INTERPRETER = python
 
 #################################################################################
@@ -15,6 +15,7 @@ PYTHON_INTERPRETER = python
 .PHONY: requirements
 requirements:
 	$(PYTHON_INTERPRETER) -m pip install -U pip
+	$(PYTHON_INTERPRETER) -m pip install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 --index-url https://download.pytorch.org/whl/cu121
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 	
 

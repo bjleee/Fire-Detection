@@ -11,4 +11,13 @@ ruff
 scikit-learn
 tqdm
 typer
+kagglehub
+Iprogress
+
+# 🧠 Deep Learning
+lightning      # PyTorch Lightning for cleaner training loops
+torchinfo 
+# Optional: HuggingFace Transformers (for NLP work)
+transformers   # Huggingface pretrained models (optional)
+
 -e .
